@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.barra-superior {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.banner-ofertas {
+    background: linear-gradient(to right, #6b46c1, #9f7aea);
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+
