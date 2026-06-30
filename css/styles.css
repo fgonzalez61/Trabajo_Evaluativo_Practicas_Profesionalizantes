@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Barra superior */
 .barra-superior {
     display: flex;
     justify-content: space-between;
@@ -16,6 +17,7 @@ body {
     gap: 30px;
 }
 
+/* Banner principal */
 .banner-ofertas {
     background: linear-gradient(to right, #6b46c1, #9f7aea);
     color: white;
@@ -23,4 +25,50 @@ body {
     text-align: center;
 }
 
+.boton-comprar {
+    padding: 10px 25px;
+    background: white;
+    border: none;
+    cursor: pointer;
+}
 
+/* Sección de productos */
+.contenedor-productos {
+    text-align: center;
+    padding: 40px;
+}
+
+.lista-productos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tarjeta-producto {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.tarjeta-producto img {
+    width: 100%;
+}
+
+.boton-ver {
+    background: #1a202c;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Pie de página */
+.pie-de-pagina {
+    background: #1a202c;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}

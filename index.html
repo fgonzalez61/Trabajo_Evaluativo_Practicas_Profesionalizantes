@@ -3,43 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Tienda Online</title>
+    <title>Mi Tienda</title>
 </head>
 <body>
 
-    <header>
+    <header class="barra-superior">
+        <div class="logo">SHOP</div>
         <nav>
-            <div class="logo">SHOP</div>
-            <ul>
-                <li>Inicio</li><li>Productos</li><li>Categorías</li><li>Contacto</li>
+            <ul class="menu">
+                <li>Inicio</li>
+                <li>Productos</li>
+                <li>Categorías</li>
+                <li>Contacto</li>
             </ul>
-            <button>Iniciar sesión</button>
         </nav>
+        <button class="boton-login">Iniciar sesión</button>
     </header>
 
-    <section class="hero">
+    <div class="banner-ofertas">
         <h1>¡OFERTAS EXCLUSIVAS!</h1>
         <p>Hasta 40% OFF</p>
-        <button>COMPRAR AHORA</button>
-    </section>
+        <button class="boton-comprar">COMPRAR AHORA</button>
+    </div>
 
-    <main>
+    <section class="contenedor-productos">
         <h2>MÁS VENDIDOS</h2>
-        <div class="productos">
-            <div class="card">
+        <div class="lista-productos">
+            <div class="tarjeta-producto">
                 <img src="img/auriculares.png" alt="Auriculares">
                 <h3>Auriculares Pro</h3>
                 <p>$45.990</p>
-                <button>Ver producto</button>
+                <button class="boton-ver">Ver producto</button>
             </div>
             </div>
-    </main>
+    </section>
 
-    <footer>
-        <div class="footer-col">Contacto...</div>
-        <div class="footer-col">Dirección...</div>
-        <div class="footer-col">Sucursales...</div>
-        <div class="footer-col">Cupones...</div>
+    <footer class="pie-de-pagina">
+        <div class="columna">Contacto</div>
+        <div class="columna">Dirección</div>
+        <div class="columna">Sucursales</div>
+        <div class="columna">Cupones</div>
     </footer>
 
 </body>
